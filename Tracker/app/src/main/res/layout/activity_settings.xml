@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bgDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Settings">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/blueDark"
+        android:textSize="20dp"
+        android:text="@string/nome" />
+
+    <EditText
+        android:id="@+id/setting_Nome"
+        android:layout_width="match_parent"
+        android:textColor="@color/blueDark"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/blueDark"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:text="@string/tempo" />
+
+    <EditText
+        android:id="@+id/setting_Tempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textColor="@color/blueDark"
+        android:layout_margin="5dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blueDark"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:text="@string/dist" />
+
+    <EditText
+        android:id="@+id/setting_Dist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blueDark"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/settings_fin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/prox"
+            android:background="@color/greyDk"
+            android:layout_margin="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.745" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

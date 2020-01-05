@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "952781358687",
+    "firebase_url": "https://tracker-test-b349a.firebaseio.com",
+    "project_id": "tracker-test-b349a",
+    "storage_bucket": "tracker-test-b349a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952781358687:android:b0afd83d43de826c6f3dea",
+        "android_client_info": {
+          "package_name": "com.raiborges.teste19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952781358687-gfom6dtg1bjstv73vctcbdt4dqr3q1sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5HlbiJjMF0Sk-ciw8UJYNwiQreygfX5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952781358687-gfom6dtg1bjstv73vctcbdt4dqr3q1sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GeoTracker</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="historico">Historico</string>
+    <string name="feito">Raí, 01/2020</string>
+    <string name="title_activity_contador">Contador</string>
+    <string name="npassos">Número de passos:</string>
+    <string name="metros">Distância percorrida:</string>
+    <string name="live">Live GeoTracker:</string>
+    <string name="parar">Finalizar Contagem</string>
+    <string name="nome">Nome do Usuário:</string>
+    <string name="tempo">Tempo minimo de captura (em segundos):</string>
+    <string name="dist">Distância do passo (em metros)</string>
+    <string name="prox">Iniciar</string>
+    <string name="hitorico">Histórico:</string>
+    <string name="voltar">Voltar</string>
+    <string name="exluir">Excluir Histórico</string>
+</resources>
